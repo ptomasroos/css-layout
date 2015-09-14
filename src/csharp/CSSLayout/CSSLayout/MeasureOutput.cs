@@ -4,9 +4,7 @@ namespace CSSLayout
 {
 	public class MeasureOutput
 	{
-		public MeasureOutput ()
-		{
-		}
+		public float Width;
+		public float Height;
 	}
 }
-

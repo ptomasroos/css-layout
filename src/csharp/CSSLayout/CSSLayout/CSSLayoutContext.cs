@@ -4,9 +4,7 @@ namespace CSSLayout
 {
 	public class CSSLayoutContext
 	{
-		public CSSLayoutContext ()
-		{
-		}
+		readonly MeasureOutput measureOutput = new MeasureOutput ();
 	}
 }
 

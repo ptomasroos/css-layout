@@ -2,9 +2,9 @@
 
 namespace CSSLayout
 {
-	public class ArrayExtensions
+	public class ArrayUtils
 	{
-		public static void Fill<T> (T[] array, T value) where T : struct
+		public static void Fill<T>(T[] array, T value) where T : struct
 		{
 			if (array == null) {
 				throw new ArgumentNullException ("array");

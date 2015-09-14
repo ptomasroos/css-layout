@@ -2,8 +2,9 @@
 
 namespace CSSLayout
 {
-	public interface IMeasureFunction
+	public interface IMeasureFunction 
 	{
+		void Measure(CSSNode node, float width, MeasureOutput measureOutput);
 	}
 }
 
